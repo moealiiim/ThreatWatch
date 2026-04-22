@@ -1,27 +1,33 @@
 {
   "expo": {
     "name": "ThreatWatch",
-    "slug": "ThreatWatch",
+    "slug": "threatwatch",
+    "scheme": "threatwatch",
     "version": "1.0.0",
     "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#020817"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.anonymous.threatwatch",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+        "backgroundColor": "#020817"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
